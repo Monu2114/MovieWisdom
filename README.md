@@ -10,6 +10,10 @@ This project is a React-based web application that generates random and motivati
 - 🎥 **Display**: Dialogues are displayed with their respective movie names.
 - 🚀 **Motivational Touch**: Includes some of my favorite motivational movie quotes.
 
+  ![Screenshot 2024-01-08 150452](https://github.com/Monu2114/MovieWisdom/assets/116855819/dfe792a6-3148-4a64-abc8-872374a044aa)
+  
+  
+
 ## Tech Stack
 
 - **React**: Frontend library for building user interfaces.
