@@ -1,0 +1,89 @@
+/* styles.css */
+
+.App {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  overflow: hidden;
+}
+
+.Images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.Images img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.Images img:hover {
+  transform: scale(1.1);
+}
+
+.movie-wisdom-text {
+  color: aquamarine;
+}
+
+h1 {
+  color: aquamarine;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: aquamarine;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: darkcyan;
+}
+
+/* styles.css */
+
+/* Your existing styles */
+
+.quote-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: left; /* Align text to the left */
+}
+
+.quote {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.movie {
+  font-style: italic;
+  color: #555;
+  text-align: right; /* Dim the movie info */
+}
+
+.quote-box:hover {
+  transform: scale(1.05); /* Add a slight zoom effect on hover */
+}
+
+/* Add this to your CSS */
